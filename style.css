@@ -1,0 +1,47 @@
+.u{
+    background-color: black;
+    overflow: hidden;
+}
+.u li{
+    float: left;
+  
+}
+.u li,a{
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+   padding: 15px;
+    color: white;
+
+}
+.u li:hover{
+    
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+a[ href="FORMULARIOS.HTML"]{
+color:red;
+}
+.title{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    text-decoration: underline;
+    color: red;
+}
+li a{
+    font-size: 60px;
+
+}
+div{
+    margin-top: 10px;
+}
+#fila2,#fila3,#fila4,#fila5,#FILA6,#FILA7{
+    margin-top: 10px;
+}
+.animacion{
+    transition: transform 0.3s ease;
+}
+.animacion:hover{
+    transform: scale(1.1);
+}
